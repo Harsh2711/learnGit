@@ -5,3 +5,9 @@
 (5) git status
 (6) Short Status 
 	git status -s
+
+(7) ignore all file
+cat .gitignore
+
+(8) git diff
+(9) git diff --cached
