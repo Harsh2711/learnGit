@@ -1,3 +1,37 @@
-if you commit and then realize you forgot to stage the changes in a file you wanted to add to this commit, you can do something like this:
+(1) if you commit and then realize you forgot to stage the changes in a file you wanted to add to this commit, you can do something like this:
 
 *****************git commit --ammend
+
+
+(2) Unstaging a Staged File
+
+	$ git add *
+	$ git status
+	On branch master
+	Changes to be committed:
+  	(use "git reset HEAD <file>..." to unstage)
+
+   	 renamed:    README.md -> README
+    	modified:   CONTRIBUTING.md
+
+now suppose you want to unstages the stages file.
+
+	git reset HEAD CONTRIBUTING.md
+
+(3) Unmodifying a Modified File
+
+	git status
+
+	On branch master
+	Changes not staged for commit:
+ 	 (use "git add <file>..." to update what will be committed)
+  	(use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   git_ammend.txt
+
+	no changes added to commit (use "git add" and/or "git commit -a")
+
+
+now suppose you wwant to modified file to unmodified file then you can use this command
+
+	git checkout -- git_ammend.txt
