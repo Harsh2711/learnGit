@@ -10,4 +10,48 @@
 cat .gitignore
 
 (8) git diff
+
+git diff --cached to see what you’ve staged so far
 (9) git diff --cached
+
+************************************** Viewing History on git *************************************
+
+(10) git log- to check all commits
+
+(11) git log -p -2
+One of the more helpful options is -p, which shows the difference introduced in each commit.
+ You can also use -2, which limits the output to only the last two entries:
+
+(12) git log --stat
+ this commands helps to show commit id with file name
+
+(13)git log --pretty=oneline
+this command helps to show all commit into one line and without file name
+
+(14) git log --pretty=format:"%h - %an, %ar : %s"
+
+this commands help to show all commit with hash code,authorname time,Commit Comments
+
+Option	Description of Output
+%H	Commit hash
+%h	Abbreviated commit hash
+%T	Tree hash
+%t	Abbreviated tree hash
+%P	Parent hashes
+%p	Abbreviated parent hashes
+%an	Author name
+%ae	Author email
+%ad	Author date (format respects the --date=option)
+%ar	Author date, relative
+%cn	Committer name
+%ce	Committer email
+%cd	Committer date
+%cr	Committer date, relative
+%s	Subject
+
+(15) Limiting Log Output
+		*git log --since=2.weeks
+		*git log 2008-01-15
+		*git log 2 years 1 day 3 minutes ago
+		*git log --author "Harshit"
+
