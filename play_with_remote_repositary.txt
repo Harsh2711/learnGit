@@ -1,0 +1,48 @@
+(1) Remove Remote Repositary From Local
+	git remote remote origin
+
+(2) Add Remote Repository
+
+	git remote add origin "Git Url"
+
+(3) Push Local Repository to Remote Repository
+	git push -u origin
+
+(4) Alias For Remote ORigin
+  git remote add pb https://github.com/paulboone/ticgit
+
+	git fetch pb;
+
+(5) Fetching and Pulling from Your Remotes
+	git fetch [remote-name]
+
+	git fetch origin
+
+	
+(6) Pushing to Your Remotes
+
+	 git push origin master
+
+(7) Show Origin Name
+
+	git remote show origin
+
+	 git remote show origin
+* remote origin
+  Fetch URL: https://github.com/Harsh2711/learnGit.git
+  Push  URL: https://github.com/Harsh2711/learnGit.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+
+(8) Removing and Renaming Remotes
+
+	git remote rename pb paul
+	git remote origin paul
+
+	git remote rm pb
+
