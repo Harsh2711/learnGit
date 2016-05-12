@@ -1,7 +1,7 @@
-Creating A Branch From Local Repository to Remote Repository
+**************Creating A Branch From Local Repository to Remote Repository
 git checkout -b your_branch
 
-Push Your Local Branch To remote Repository
+*************Push Your Local Branch To remote Repository
 git push <remote-name> <branch-name>
 
 Example
@@ -9,3 +9,23 @@ git checkout -b gitLearnBranch
 
 pushing branch
 git push origin gitLearnBranch
+
+
+*Switching A Branch
+
+git checkout master
+
+ git checkout branch
+
+
+***** Meging 2 branch *************
+
+git checkout master
+
+git merge gitLearnBranch
+
+it there is conflict then we have to resolved it
+otherwise it automatically merged
+
+
+
