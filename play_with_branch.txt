@@ -11,6 +11,7 @@ pushing branch
 git push origin gitLearnBranch
 
 
+
 *Switching A Branch
 
 git checkout master
@@ -31,4 +32,7 @@ otherwise it automatically merged
 //added new commands
 
 
+
+
+//comments On Branch
 
