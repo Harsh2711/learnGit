@@ -1,0 +1,11 @@
+Creating A Branch From Local Repository to Remote Repository
+git checkout -b your_branch
+
+Push Your Local Branch To remote Repository
+git push <remote-name> <branch-name>
+
+Example
+git checkout -b gitLearnBranch
+
+pushing branch
+git push origin gitLearnBranch
