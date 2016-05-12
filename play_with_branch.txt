@@ -28,4 +28,7 @@ it there is conflict then we have to resolved it
 otherwise it automatically merged
 
 
+//added new commands
+
+
 
