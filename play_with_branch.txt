@@ -44,7 +44,15 @@ git checkout -b branchname;
 
 ***** Deleteting Branch *******
 
-git checkout -d branchname;
+git branch -d branchname;
 
-git checkout -d masterchild;
+git branch -d masterchild;
+
+*** Deleting Branch From Remote Repository
+
+git push origin --delete branchname
+
+**** Without MErgin A Branch How Can We Delete Branch
+
+git branch -D branchname
 
