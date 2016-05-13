@@ -31,9 +31,20 @@ otherwise it automatically merged
 
 //added new commands
 
-
-
-
 //comments On Branch
 
-#slick-slide191>button
+******* Creating Branch Short Way ********
+
+By Two Steps
+git branch branchname
+git checkout branchname
+
+In One Step
+git checkout -b branchname;
+
+***** Deleteting Branch *******
+
+git checkout -d branchname;
+
+git checkout -d masterchild;
+
