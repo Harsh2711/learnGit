@@ -56,3 +56,24 @@ git push origin --delete branchname
 
 git branch -D branchname
 
+***** LIsitng all branches on mAster
+git branch
+
+
+**** if you want to see last commit of all branches
+git branch -v
+
+
+*** if you want to which branches you merged
+git branch --merged
+
+** if you want to see which branches is not merged
+git branch --no-merged
+
+
+***** Types oF Branching
+(1) Long Running Branches
+
+(2) Topic Branching
+
+
