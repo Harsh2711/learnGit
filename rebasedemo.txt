@@ -1,1 +1,9 @@
 ************************ Rebase************
+
+git checkout experiment
+git rebase master
+
+then checkout of master
+git checkout master
+git merge experiment
+
