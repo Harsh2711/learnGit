@@ -1,0 +1,117 @@
+What is version control system - 
+Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later
+
+--Git Workflow
+Committed means that the data is safely stored in your local database.
+Modified means that you have changed the file but have not committed it to your database yet.
+Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
+
+-- installing git
+
+
+Git Command
+(1) how to initilize a git project 
+git init
+git add .
+git commit -m "Master COmmit"
+
+(2) how to see status of current branch
+git status
+
+(3) git commit -a
+
+(4) Checking Your Setting - 
+git config --list
+ git config user.name
+
+
+(4) git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+(5) Cloning Your Exsisting Repository - 
+git clone  https://github.com/libgit2/libgit2
+
+(6) how to identify changes 
+    git diff
+
+(7) git Commit to skip in staging area - 
+    git commit -a -m "COmmit Message"
+
+(8) remove file from git directory
+   git rm "File Name"
+
+(9) Rename File
+git mv file_from file_to
+
+(10) See ALl THe COmmits
+git log
+git log -p -1
+git log --pretty=oneline
+
+Limiting Log Output
+git log --since=2.weeks
+"2008-01-15"
+
+by author name - 
+git log --author=harshit
+
+(11) UnDo CHanges
+ git commit --amend
+
+how to unstage a stage file
+git add *
+git reset head remote.add
+
+(12) Working With Remote
+git remote -v
+adding remote repository
+git remote add pb url
+git push origin master
+git remote rename pb paul
+git remote remove paul
+
+
+(13) Creating Alias
+git config --global alias.unstage 'reset HEAD --'
+this make two command equ;iemt
+$ git unstage fileA
+$ git reset HEAD -- fileA
+
+git config --global alias.last 'log -1 HEAD'
+git last
+
+(14) Working with branch
+git branch branchname
+git checkout branchname
+
+git checkout -b branchname
+git merge branchname
+
+without conflict merge branch
+conflict situation when both file have changed
+git status
+git diff
+git mergetool
+
+git branch -v
+to see last commit on each branch
+git branch --merged
+git branch --no-merged
+
+if your branch is not merged and if you try to delete branch then it will give you error
+git branch -d testing
+
+*************Push Your Local Branch To remote Repository
+git push <remote-name> <branch-name>
+
+Example
+git checkout -b gitLearnBranch
+
+pushing branch
+git push origin gitLearnBranch
+
+(15) cherry-pick COmmand
+
+(16) git stash
+(17) git stash apply
+
