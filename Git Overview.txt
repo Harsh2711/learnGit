@@ -1,6 +1,11 @@
 What is version control system - 
 Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later
 
+GIt Version COntrol
+Two Tree Architecture
+Three Tree Achitectutre
+FIlt.txt in two different version
+git generate checksuma
 --Git Workflow
 Committed means that the data is safely stored in your local database.
 Modified means that you have changed the file but have not committed it to your database yet.
